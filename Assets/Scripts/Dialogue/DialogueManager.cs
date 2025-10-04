@@ -88,6 +88,10 @@ public class DialogueManager : MonoBehaviour
             {
                 StartDialogue(dialogueDayList.dayLists[i-1].Dialogue);
             }
+            else
+            {
+                StartDialogue(dialogueDayList.dayLists[dialogueDayList.dayLists.Count-1].Dialogue);
+            }
         }
     }
 

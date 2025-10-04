@@ -940,7 +940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &370055275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2150,7 +2150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1093573008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2166,6 +2166,7 @@ MonoBehaviour:
   canvas: {fileID: 2130366649}
   cameraCanvas: {fileID: 0}
   panel: {fileID: 1486402047}
+  DialoguePage: 0
   isDialogueActive: 0
   typingSpeed: 0.03
   animator: {fileID: 1486402050}

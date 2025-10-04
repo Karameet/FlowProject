@@ -18,8 +18,8 @@ public class GameTimeManager : MonoBehaviour
         if(Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(this);
         }
+        day = 1;
     }
 
     void Update()
